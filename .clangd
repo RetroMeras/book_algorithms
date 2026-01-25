@@ -1,0 +1,5 @@
+CompileFlags:
+  Add: 
+    - "-I/home/melaveetha/Documents/Programming/CLang/book-algorithms/include"
+    - "-Wall"
+    - "-Wextra"
