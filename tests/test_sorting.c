@@ -55,23 +55,6 @@ void test_sort_algorithm(sort_func_t sort_func, const char *algo_name) {
     }
 }
 
-// Individual test functions (for backward compatibility)
-void test_bubble_sort_runner(void) {
-    test_sort_algorithm(bubble_sort, "Bubble Sort");
-}
-
-void test_insertion_sort_runner(void) {
-    test_sort_algorithm(insertion_sort, "Insertion Sort");
-}
-
-void test_selection_sort_runner(void) {
-    test_sort_algorithm(selection_sort, "Selection Sort");
-}
-
-void test_merge_sort_runner(void) {
-    test_sort_algorithm(merge_sort, "Merge Sort");
-}
-
 int main(void) {
     printf("========================================\n");
     printf("        Sorting Algorithm Tests\n");
@@ -82,6 +65,7 @@ int main(void) {
     test_sort_algorithm(insertion_sort, "Insertion Sort");
     test_sort_algorithm(selection_sort, "Selection Sort");
     test_sort_algorithm(merge_sort, "Merge Sort");
+    test_sort_algorithm(heap_sort, "Heap Sort");
     
     printf("\n========================================\n");
     printf("✅ All sorting algorithm tests completed!\n");

@@ -4,11 +4,11 @@
 #include "common.h"
 
 // Insertion Sort
-// Time: O(n^2) worst, O(n) best | Space: O(1)
+// Time: O(n^2) worst, O(n^2) average | Space: O(1)
 void insertion_sort(int *arr, size_t n);
 
 // Selection Sort
-// Time: O(n^2) worst, O(n) best | Space: O(1)
+// Time: O(n^2) worst, O(n^2) average | Space: O(1)
 void selection_sort(int *arr, size_t n);
 
 // Merge Sort
@@ -19,5 +19,8 @@ void merge_sort(int *arr, size_t n);
 // Time: O(n^2) worst, O(n^2) best | Space: O(1)
 void bubble_sort(int *arr, size_t n);
 
+// Heap Sort
+// Time: O(nlog2(n)) worst, - average | Space O(1) 
+void heap_sort(int *arr, size_t n);
 
 #endif

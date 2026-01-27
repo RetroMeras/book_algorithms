@@ -19,6 +19,7 @@ static sorting_algorithm_t algorithms[] = {
     {"Insertion Sort", insertion_sort, true, true},
     {"Selection Sort", selection_sort, false, true},
     {"Merge Sort", merge_sort, true, false},
+    {"Heap Sort", heap_sort, true, true},
 };
 
 static const size_t num_algorithms = sizeof(algorithms) / sizeof(algorithms[0]);
