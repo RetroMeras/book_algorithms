@@ -13,7 +13,6 @@
 typedef int (*compare_fn)(const void*, const void*);
 
 // Utility functions
-void print_array(int *arr, size_t n);
 void swap(int *a, int *b);
 
 #endif
