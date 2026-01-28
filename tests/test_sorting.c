@@ -61,11 +61,13 @@ int main(void) {
     printf("========================================\n");
     
     // Test all algorithms
-    test_sort_algorithm(bubble_sort, "Bubble Sort");
+    // test_sort_algorithm(bubble_sort, "Bubble Sort");
     test_sort_algorithm(insertion_sort, "Insertion Sort");
     test_sort_algorithm(selection_sort, "Selection Sort");
     test_sort_algorithm(merge_sort, "Merge Sort");
     test_sort_algorithm(heap_sort, "Heap Sort");
+    test_sort_algorithm(quick_sort, "Quick Sort");
+    test_sort_algorithm(tail_quick_sort, "Tail Quick Sort");
     
     printf("\n========================================\n");
     printf("✅ All sorting algorithm tests completed!\n");

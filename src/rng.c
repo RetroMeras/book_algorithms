@@ -1,6 +1,10 @@
 
 #include <time.h>
 
+/**
+ * Returns random number in range [a, b)
+ *
+ */
 int rand_basic(int a, int b){
     int mx = a > b ? a : b;
     int mn = a > b ? b : a;

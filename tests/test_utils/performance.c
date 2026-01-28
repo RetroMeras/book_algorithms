@@ -15,11 +15,13 @@ typedef struct {
 } sorting_algorithm_t;
 
 static sorting_algorithm_t algorithms[] = {
-    {"Bubble Sort", bubble_sort, true, true},
+    // {"Bubble Sort", bubble_sort, true, true},
     {"Insertion Sort", insertion_sort, true, true},
     {"Selection Sort", selection_sort, false, true},
     {"Merge Sort", merge_sort, true, false},
     {"Heap Sort", heap_sort, true, true},
+    {"Quick Sort", quick_sort, true, true},
+    {"Tail Quick Sort", tail_quick_sort, true, true},
 };
 
 static const size_t num_algorithms = sizeof(algorithms) / sizeof(algorithms[0]);

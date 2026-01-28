@@ -23,4 +23,12 @@ void bubble_sort(int *arr, size_t n);
 // Time: O(nlog2(n)) worst, - average | Space O(1) 
 void heap_sort(int *arr, size_t n);
 
+// Quick Sort
+// Time: O(n^2) worst, O(nlog2(n)) average | Space O(1) 
+void quick_sort(int *arr, size_t n);
+
+// Tail Quick Sort
+// Time: O(n^2) worst, O(nlog2(n)) average | Space O(1) 
+void tail_quick_sort(int *arr, size_t n);
+
 #endif
